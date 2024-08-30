@@ -1,0 +1,104 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f0f0f0;
+}
+
+/* Container Styling */
+.container {
+    background-color: #2e2e2e;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+/* Heading Styling */
+h1 {
+    color: #f0f0f0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Textarea Styling */
+textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 1px;
+    font-size: 16px;
+    resize: none;
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+/* Button Styling */
+button {
+    background-color: #00ff7f;
+    color: #1c1c1c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    box-shadow: 0 0 20px #00ff7f, 0 0 40px #00ff7f, 0 0 60px #00ff7f;
+    transform: scale(1.15);
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Links Container Styling */
+.links {
+    margin-top: 20px;
+}
+
+/* Links Styling */
+.links a {
+    color: #00ff7f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.links a:hover {
+    box-shadow: 0 0 10px #00ff7f, 0 0 20px #00ff7f, 0 0 30px #00ff7f;
+    background-color: #00ff7f;
+    color: #000000;
+    transform: scale(1.05);
+}
+
+/* Back Button Styling */
+a {
+    color: #00ff7f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    box-shadow: 0 0 10px #00ff7f, 0 0 20px #00ff7f, 0 0 30px #00ff7f;
+    background-color: #00ff7f;
+    color: #000000;
+    transform: scale(1.05);
+}

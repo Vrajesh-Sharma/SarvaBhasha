@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Detector</title>
+    <!---<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">--->
+    <link rel="stylesheet" href="static\styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Language Detector</h1>
+        <p>Enter text to detect the language</p>
+        <form action="/detect" method="POST">
+            <textarea name="text" rows="10" cols="30"></textarea><br>
+            <br>
+            <button type="submit">Detect Language</button>
+        </form>
+        <p>Created by <strong>Vrajesh Sharma</strong></p>
+        <div class="links">
+            <a href="https://github.com/Vrajesh-Sharma/Language-Detector" target="_blank">GitHub Repository</a> | 
+            <a href="https://www.linkedin.com/in/vrajesharma-7-dsa/" target="_blank">LinkedIn Profile</a>
+        </div>
+    </div>
+</body>
+</html>
