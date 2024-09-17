@@ -12,23 +12,28 @@ SarvaBhasha is a language detection web application that uses machine learning t
 
 Ensure Python is installed on your system. 
 Follow these steps to set up and run the SarvaBhasha application on your local machine:
-1. *Clone the Repository*  
+1. **Clone the Repository**
+   
    To clone the repository, run the following commands:
    ```bash
    git clone https://github.com/Vrajesh-Sharma/SarvaBhasha.git
    cd SarvaBhasha
    ```
 2. **Install Dependencies**
+   
     Ensure Python is installed on your system. Then, install the required libraries by running:
     ```bash
     pip install -r requirements.txt
     ```
+   
 3. **Run the Application**
     Start the Flask development server using the following command:
     ```bash
     python app.py
     ```
-5. *Access the Application*
+    
+4. **Access the Application**
+   
     Once the server is running, navigate to `http://127.0.0.1:5000/` or the provided `localhost` link in your terminal to access the language detector.
   
 ## 🛠 Skills
@@ -36,18 +41,18 @@ Python, Flask, Machine Learning, Natural Language Processing (NLP), HTML, CSS
 
 ## 🤝Contributing
   Contributions are always welcome!
-  1. *Fork the repository*.
+  1. **Fork the repository*.
   
-  2. *Create a new branch* 
+  2. **Create a new branch** 
   (`git checkout -b feature-branch`).
   
-  3. *Commit your changes* 
+  3. **Commit your changes** 
   (`git commit -m 'Add some feature'`).
   
-  4. *Push to the branch* 
+  4. **Push to the branch** 
   (`git push origin feature-branch`).
   
-  5. *Open a pull request*.
+  5. **Open a pull request**.
   For major changes, please open an issue first to discuss what you'd like to change.
 
 ## 🔗 Links
