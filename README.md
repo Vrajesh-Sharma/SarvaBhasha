@@ -2,6 +2,12 @@
 
 SarvaBhasha is a language detection web application that uses machine learning to identify the language of text input by the user. The application is built using Flask and features a modern design with a dark background and neon green glowing buttons.
 
+
+## 🗣️Languages Supported
+This project can detect 22 different languages
+
+**Arabic, Chinese, Dutch, English, Estonian, French, Hindi, Indonesian, Japanese, Korean, Latin, Persian, Portuguese, Pushto, Romanian, Russian, Spanish, Swedish, Tamil, Thai, Turkish and Urdu.**
+
 ## ✨Features
 
 - *Fast Language Detection*: Detects the language of text input within seconds.
@@ -41,19 +47,23 @@ Python, Flask, Machine Learning, Natural Language Processing (NLP), HTML, CSS
 
 ## 🤝Contributing
   Contributions are always welcome!
-  1. **Fork the repository*.
+  1. **Fork the repository**.
   
   2. **Create a new branch** 
-  (`git checkout -b feature-branch`).
+  
+     (`git checkout -b feature-branch`).
   
   3. **Commit your changes** 
-  (`git commit -m 'Add some feature'`).
+  
+     (`git commit -m 'Add some feature'`).
   
   4. **Push to the branch** 
-  (`git push origin feature-branch`).
+  
+     (`git push origin feature-branch`).
   
   5. **Open a pull request**.
-  For major changes, please open an issue first to discuss what you'd like to change.
+  
+     For major changes, please open an issue first to discuss what you'd like to change.
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/Vrajesh_Sharma-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vrajesharma-7-dsa/)
