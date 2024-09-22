@@ -8,37 +8,47 @@ This project can detect 22 different languages
 
 **Arabic, Chinese, Dutch, English, Estonian, French, Hindi, Indonesian, Japanese, Korean, Latin, Persian, Portuguese, Pushto, Romanian, Russian, Spanish, Swedish, Tamil, Thai, Turkish and Urdu.**
 
+## 🌐Tech Stack
+- **Backend** : Flask
+- **Frontend** : HTML, CSS
+- **Machine Learning** : A pre-trained language detection model
+- **Deployment** : Render platform
+## 🔍How to Use
+- Visit the application at **[SarvaBhasha](https://sarvabhasha.onrender.com/)**
+- Enter the text you want to analyze in the input field.
+- Click the 'Detect Language' button to see the detected language instantly.
+
 ## ✨Features
 
-- *Fast Language Detection*: Detects the language of text input within seconds.
-- *User-Friendly Interface*: Easy-to-use interface with neon green glowing buttons.
-- *Built with Flask*: A lightweight Python web framework for seamless web development.
+- **Fast Language Detection**: Detects the language of text input within seconds.
+- **User-Friendly Interface**: Easy-to-use interface with neon green glowing buttons.
+- **Built with Flask**: A lightweight Python web framework for seamless web development.
 
 ## ⚙Installation
 
 Ensure Python is installed on your system. 
 Follow these steps to set up and run the SarvaBhasha application on your local machine:
-1. **Clone the Repository**
+- **Clone the Repository**
    
    To clone the repository, run the following commands:
    ```bash
    git clone https://github.com/Vrajesh-Sharma/SarvaBhasha.git
    cd SarvaBhasha
    ```
-2. **Install Dependencies**
+- **Install Dependencies**
    
     Ensure Python is installed on your system. Then, install the required libraries by running:
     ```bash
     pip install -r requirements.txt
     ```
    
-3. **Run the Application**
+- **Run the Application**
     Start the Flask development server using the following command:
     ```bash
     python app.py
     ```
     
-4. **Access the Application**
+- **Access the Application**
    
     Once the server is running, navigate to `http://127.0.0.1:5000/` or the provided `localhost` link in your terminal to access the language detector.
   
@@ -47,21 +57,21 @@ Python, Flask, Machine Learning, Natural Language Processing (NLP), HTML, CSS
 
 ## 🤝Contributing
   Contributions are always welcome!
-  1. **Fork the repository**.
+- **Fork the repository**.
   
-  2. **Create a new branch** 
+- **Create a new branch** 
   
      (`git checkout -b feature-branch`).
   
-  3. **Commit your changes** 
+- **Commit your changes** 
   
      (`git commit -m 'Add some feature'`).
   
-  4. **Push to the branch** 
+- **Push to the branch** 
   
      (`git push origin feature-branch`).
   
-  5. **Open a pull request**.
+- **Open a pull request**.
   
      For major changes, please open an issue first to discuss what you'd like to change.
 
